@@ -1,11 +1,22 @@
 {
   "description": "A tool to visualize keyboard input(dart/flutter & c++)",
   "url": "https://github.com/mulaRahul/keyviz/releases/download/v2.0.0a3/keyviz-v2.0.0a3-windows.zip",
+  "hash": "6BFD919EBC611BAD3AAC83B30CE336C23196AFB0FDD8FED73E3F642FE9BA5457",
   "license": "GPL-3.0 license",
   "bin": "keyviz.exe",
-  // "hash": "",
-  // "depends": "",
-  // "extract_dir": "",
+  "shortcuts": [
+    [
+      "keyviz.exe",
+      "Keyviz"
+    ]
+  ],
   "version": "v2.0.0a3",
-  "homepage": "https://github.com/mulaRahul/keyviz"
+  "homepage": "https://github.com/mulaRahul/keyviz",
+  "checkver": {
+    "github": "https://github.com/mulaRahul/keyviz",
+    "regex": "v([\\d.]+[a-z]?\\d*)"
+  },
+  "autoupdate": {
+    "url": "https://github.com/mulaRahul/keyviz/releases/download/v$version/keyviz-v$version-windows.zip"
+  }
 }
