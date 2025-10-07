@@ -1,6 +1,7 @@
 param(
     # overwrite upstream param
-    [String]$upstream = "<username>/<bucketname>:main"
+    [String]$upstream = "sincerely-hello-world/easyScoop:main"
+    # [String]$upstream = "<username>/<bucketname>:main"
 
     # run in local windows's pwsh
     # path/to/auto-pr.ps1  -upstream "sincerely-hello-world/easyScoop:main"
