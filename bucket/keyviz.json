@@ -10,10 +10,10 @@
       "Keyviz"
     ]
   ],
-  "version": "v2.0.0a3",
+  "version": "2.0.0a3",
   "homepage": "https://github.com/mulaRahul/keyviz",
   "checkver": {
-    "github": "https://github.com/mulaRahul/keyviz",
+    "github": "https://github.com/mulaRahul/keyviz/releases/",
     "regex": "v([\\d.]+[a-z]?\\d*)"
   },
   "autoupdate": {
